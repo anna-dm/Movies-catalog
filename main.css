@@ -1,0 +1,59 @@
+@import "./reset.css";
+
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.film-cards__img {
+    width: 200px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.title-1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.films {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.film-cards {
+    text-align: center;
+    background-color: rgb(43, 44, 45);
+    padding-bottom: 15px;
+    border-radius: 6px;
+    box-shadow: 0px 5px 15px rgb(69, 97, 156);
+}
+
+
+.film-cards__title {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.film-cards__year {
+    margin-bottom: 5px;
+    color: rgb(9, 9, 145);
+}
+
+.film-cards__rate {
+    color: rgb(217, 198, 21);
+    font-size: 14px;
+}
